@@ -1,0 +1,398 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    /* background: linear-gradient(rgb(56, 56, 56),rgb(19,19,19)); */
+    background-color: #050505;
+    color: #fff;
+}
+/* 大版心 */
+.w{
+    position: relative;
+    width: 1440px;
+    margin:auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.gradient{
+        background: linear-gradient(rgb(58, 58, 58) 10%,rgb(19,19,19) 100%);
+}
+.header{
+    position: relative;
+    height: 72px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+ .logo{
+    position: absolute;
+    top:9px;
+    width: 54px;
+    height: 54px;
+    /* float: left;
+    width: 100px;
+    height: 54px;
+    line-height: 54px;
+    margin-left: 30px;  */
+}
+ .search{
+ position: absolute;
+ top: 14px;
+ left: 127px;
+    width: 290px;
+    height: 54px;
+    /* margin-left: 27px;
+    margin-top: 14px; */
+    
+}
+.search input{
+    float: left;
+    width: 230px;
+    height: 44px;
+    line-height: 44px;
+    border:0 ;
+    border-radius: 10px 0 0 10px;
+    padding-left: 20px;
+    color:rgb(0,0,0);
+    font-size: 14px;
+    margin: auto ;
+}
+.search button{
+    float: left;
+    width: 40px;
+    height: 44px;
+    border-radius: 0 10px 10px 0;
+    background-color: #fff;
+    border: 0;
+}
+.nav{
+    position: absolute;
+    left: 444px;
+    margin-left: 238px;
+}
+.nav ul li{
+    float: left;
+    margin: 18px 13px;
+}
+.nav ul li a{
+    display: block;
+    height: 36px;
+    /* padding:0 7px; */
+    width: 65px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 36px;
+}
+.nav ul li a:hover{
+    background-color: rgb(89, 89, 89);
+    border-radius: 5px;
+}
+.user{
+    position: absolute;
+    left: 1037px;
+    width: 190px;
+    height: 72px;
+    margin-left: 203px;
+}
+.b{
+    float: left;
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+}
+.user .b1{
+    background-color: black;
+}
+.user .b2{
+    width: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
+/* 作者介绍栏 */
+.root{
+    position: relative;
+    height: 427px;
+    /* background: linear-gradient(rgb(56, 56, 56),rgb(19,19,19)); */
+}
+.root img{
+    position: absolute;
+    top: 144px;
+    left: 15px;
+    width: 180px;
+    height: 180px;
+}
+.root h2{
+    position: absolute;
+    top: 156px;
+    left: 261px;
+    width: 288px;
+    height: 62px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.root h4{
+    position: absolute;
+    top: 251px;
+    left: 261px;
+    width: 125px;
+    height: 24px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.root  .info{
+    position:relative;
+    width: 300px;
+    top: 293px;
+    left: 261px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+.root .info .fan{
+    position: absolute;
+    left:148px;
+    top: 0;
+}
+.root .right{
+    position: absolute;
+    box-sizing: border-box;
+    top: 198px;
+    right: 70px;
+    width: 194px;
+    height: 57px;
+    border: 2px solid #56568B;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 49px;
+    padding-top: 13px;
+    /* background-color: aqua; */
+}
+.root .right a{
+    color: #a8a8a8;
+}
+.serc{
+    position: relative;
+    height: 60px;
+    margin-bottom: 36px;
+}
+/* 分类栏 */
+.sort{
+    position: absolute;
+    left: 15px;
+    width: 1200px;
+}
+.sort ul li{
+    float: left;
+    margin: 0 40px 19px 0;
+}
+.sort ul li a{
+    display: block;
+    height: 54px;
+    width: 112px;
+    font-size: 28px;
+    font-weight: 400;
+    color:  #BDBDBD;
+}
+.sort ul li a:hover{
+    height: 60px;
+    width: 128px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 3px solid  #5F5F9C;
+}
+/* 搜索资料部分 */
+.s{
+    position:absolute;
+    right: 46px;
+    display: inline-block;
+    width: 280px;
+    height: 42px;
+    border: 2px solid #5F5F9C;
+    border-radius: 12px;
+}
+.s input{
+    float: right;
+    width: 244px;
+    height: 42px;
+    border-radius: 12px;
+    background: none;
+    border:none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.s button{
+    float: left;
+    width: 33px;
+    height: 42px;
+    border-radius: 12px 0 0 12px;
+    border: none;
+    background: none;
+}
+/* 主要部分 */
+.box-bd{
+    /* margin-top: 36px; */
+    overflow: hidden;
+    width: 1440px;
+}
+.box-bd ul{
+    margin: auto;
+}
+.box-bd ul li{
+    float: left;
+    height: 287px;
+    width: 344px;
+    border-radius: 10px;
+    background-color: rgb(28, 28, 28);
+    margin-right: 204px;
+    margin-bottom: 45px;
+}
+.box-bd ul li:nth-of-type(3n){
+    margin-right: 0px;
+}
+/* 大图片 */
+.box-bd ul li>img {
+   position: relative;
+   top: 14px;
+   left: 16px;
+    width: 312px;
+}
+/* 图片中的文字栏开始 */
+.box-bd ul li h4{
+    position: relative;
+    top: 9px;
+    left: 17px;
+    font-size: 15px;
+    color:#fff;
+    font-weight: 550;
+}
+.box-bd ul li .icon {
+    position: relative;
+    top: -10px;
+    left: 24px;
+    width: 312px;
+    height: 20px;
+}
+.box-bd ul li .icon span{
+    position: relative;
+    display: inline-block;
+    top: -2px;
+    color: #fff;
+    font-size: 14px;
+}
+.box-bd ul li .icon .see{
+    left: -2px;
+}
+.box-bd ul li .icon img:nth-of-type(2){
+    position: absolute;
+    left: 70px;
+}
+.box-bd ul li .icon .review{
+    left: 32px;
+}
+.box-bd ul li .icon .rate{
+    left: 100px;
+}
+.box-bd ul li .icon .time{
+    left: 111px;
+}
+.box-bd ul li .icon h5{
+    position: relative;
+    left: 102px;
+    top: -2px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+/* 图片中的文字栏结束 */
+.box-bd .info{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    color:rgb(226, 226, 226);
+}
+.box-bd .info  span img{
+    position: absolute;
+   top: 20px;
+   left: 17px;
+    width: 20px;
+}
+.box-bd .info .name{
+    position: absolute;
+    left: 51px;
+    top: 16px;
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.box-bd .info .date{
+    position: absolute;
+    left: 280px;
+    top: 16px;
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* 底栏 */
+.bottom{
+    position: relative;
+    height: 200px;
+    margin-top: 90px;
+}
+.bottom .q{
+    padding-top: 50px;
+}
+.bottom .copyright{
+    position: absolute;
+    left: 0;
+    width: 260px;
+}
+.bottom .copyright span{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 34px;
+}
+.bottom .links {
+    position: absolute;
+    right: 65px;
+    margin-left: 10px;
+}
+.bottom .links dl{
+    float: left;
+    width: 249px;
+}
+.bottom .links dl dt{
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.bottom .links dl dd{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(187, 187, 187);
+}
+

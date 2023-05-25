@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #FFFFFF;
+    color: #767676;
+    font-weight: 400;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: relative;
+    height: 60px;
+    width: 1272px;
+    margin: auto;
+    background-color: pink;
+}
+.main{
+    width: 1272px;
+    margin: auto;
+    overflow: hidden;
+    /* 不设置高度，让子盒子去撑开大盒子 */
+    background-color: rgb(251, 251, 255);
+}
+.main img{
+    display: block;
+    margin: 150px auto 0;
+    width: 666px;
+    height: 374px;
+}
+.main #ask{
+    display: block;
+    margin: 10px auto;
+    width: 600px;
+    height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: 1px solid #022CFF;
+    border-radius: 27px;
+    margin-bottom: 350px;
+}

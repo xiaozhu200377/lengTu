@@ -1,0 +1,340 @@
+page {
+    width: 100%;
+    display: flex;
+}
+
+.out-cont {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cont-top {
+    width: 100%;
+    height: 94px;
+    background-color: #272727;
+}
+
+.cont-top .top-title {
+    /* 商品详情 */
+    position: absolute;
+    margin-top: 25px;
+    left: 40%;
+    width: 375px;
+    height: 25px;
+    opacity: 1;
+    font-family: PingFang SC;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.cont-midd .product-img {
+    /* 矩形 159 */
+    width: 375px;
+    height: 272.09px;
+    background-color: #FFFFFF;
+}
+
+.product-img swiper {
+    height: 272px;
+}
+
+.space-icon .icon-img {
+    /* 容器 75 */
+    position: absolute;
+    left: 151.34px;
+    top: 332px;
+    width: 73.21px;
+    height: 25.23px;
+    border-radius: 25px;
+    opacity: 0.8;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 6px;
+    gap: 4px;
+    background: #FFFFFF;
+}
+
+
+/* .min-img .min-img-home {
+    width: 70px;
+    float: left;
+}
+
+.min-img .min-img-home image {
+    display: flex;
+
+    left: 160px;
+    top: 0px;
+    width: 70px;
+    height: 70.09px;
+    border-radius: 3.62px;
+    opacity: 1;
+} */
+
+.min-back {
+    background-color: #272727;
+    height: 130px;
+    border-radius: 3.62px;
+    position: relative;
+}
+
+.scroll {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.dir {
+    margin: 3px 5px;
+    height: 75px;
+    width: 70px;
+    border-radius: 3.62px;
+}
+
+.min-back .title {
+    /* 深技大限定文创3D衣服 */
+    /* 自动布局子元素 */
+    position: static;
+    left: 2px;
+    top: 0px;
+    margin-left: 4px;
+    height: 25px;
+    font-family: PingFang SC;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    z-index: 0;
+    float: left;
+}
+
+.min-back .HowManyPeoToGet {
+    /* 1.1w+ 人付款 */
+    /* 自动布局子元素 */
+    float: right;
+    margin-right: 4px;
+    right: 10.9px;
+    top: 90px;
+    height: 17px;
+    font-family: PingFang SC;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #868686;
+    z-index: 1;
+    position: absolute;
+}
+
+.big-info {
+    /* 矩形 166 */
+    width: 96%;
+    height: 146.93px;
+    border-radius: 9.06px;
+    opacity: 1;
+    background: #242424;
+    margin: 10px 8px;
+}
+
+.row-item {
+    display: flex;
+    height: 48.98px;
+    align-items: center;
+    border-bottom: 0.1px solid #514d4d55;
+}
+
+.row-item-title {
+    /* 选择规格 */
+    width: 56px;
+    height: 20px;
+    opacity: 1;
+    font-family: PingFang SC;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    padding-left: 9.06px;
+}
+
+.row-item-detail {
+    padding-left: 101.94px;
+    /* 4钟规格可选 */
+    /* width: 79px; */
+    height: 20px;
+    opacity: 1;
+    font-family: PingFang SC;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #868686;
+}
+
+.row-item-know {
+    position: absolute;
+    right: 14px;
+}
+
+.product-detail-cont .detail-top {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-top .top-text {
+    /* padding-bottom: 9px;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-color: #8444FF;
+    text-decoration-thickness: 3px; */
+    font-size: 14px;
+    box-shadow: 0 -1px #8444FF inset;
+}
+
+.detail-info {
+    /* 穿上Nike Sportswear Club男子全拉链开襟连帽衫，以经典造型诠释简约街头风尚。采用柔软的法式 毛圈面料制成，打造出色包覆效果和舒适穿着体验。 */
+    position: absolute;
+    left: 27%;
+    top: 685.4px;
+    width: 206.52px;
+    height: 85px;
+    opacity: 1;
+    font-family: PingFang SC;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #FDFDFD;
+}
+
+.first-img {
+    /* 矩形 167 */
+    position: absolute;
+    top: 800px;
+    width: 96%;
+    height: 355px;
+    opacity: 1;
+    padding: 0 8.5px;
+}
+
+.detail-show {
+    width: 100%;
+}
+
+.detail-show-top {
+    /* 容器 95 */
+    position: absolute;
+    left: 35%;
+    top: 1190px;
+    width: 136px;
+    height: 20px;
+    opacity: 1;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.detail-show-top .top-text {
+    /* 细节展示 */
+    /* 自动布局子元素 */
+    position: static;
+    left: 40px;
+    top: 0px;
+    height: 20px;
+    opacity: 1;
+    font-family: PingFang SC;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.detail-show-cont {
+    margin-top: 560px;
+}
+
+
+.detail-show-img image {
+    height: 400px;
+    width: 100%;
+}
+
+.shop-bottom {
+    /* 矩形 182 */
+    display: fixed;
+    width: 100%;
+    height: 61px;
+    opacity: 1;
+    background: #313131;
+}
+
+.shop-bottom .left-price {
+    /* position: absolute; */
+    float: left;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 38px;
+    font-family: PingFang SC;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    margin-right: 40%;
+}
+
+.shop-bottom .navi {
+    float: left;
+}
+
+.shop-bottom .addTocar {
+    /* 容器 99 */
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 39px;
+    opacity: 1;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    background: #48454C;
+    align-items: center;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.addTocar image {
+    width: 80%;
+}
+
+.shop-bottom .ToshopIt {
+    /* 容器 23 */
+    width: 90px;
+    height: 30px;
+    border-radius: 21px;
+    opacity: 1;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    padding: 4px 20px;
+    gap: 10px;
+    /* 紫色渐变 */
+    background: linear-gradient(130deg, #A678FF 8%, #915DFF 48%, #7C3FFD 97%);
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.ToshopIt .shopT {
+    padding: 0;
+    margin-bottom: 40%;
+    font-size: 16px;
+}

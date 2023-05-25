@@ -1,0 +1,44 @@
+<page-meta>
+  <navigation-bar
+    title="{{nbTitle}}"
+    loading="{{nbLoading}}"
+    front-color="{{nbFrontColor}}"
+    background-color="{{nbBackgroundColor}}"
+
+  />
+</page-meta>
+
+<view class="big-cont">
+    <view class="sucess-box">
+        <view class="sucess-tip">
+            <view class="sucess-logo">
+                <image class=""  src="cloud://cloud1-2gdz38hz9226e97f.636c-cloud1-2gdz38hz9226e97f-1316184354/图片svg/潮牌logo.svg"  />
+            </view>
+            <view class="sucess-text" selectable="false" space="false" decode="false">
+                支付成功 !
+            </view>
+        </view>
+        <view class="twobtn">
+            <button  plain="true" 	hover-class="button-hover">返回商城</button>
+            <view class="mid" hover-class="none" hover-stop-propagation="false">    
+            </view>
+            <button plain="true"	hover-class="button-hover">查看订单</button>
+        </view>
+        <view class="line"></view>
+    </view>
+
+    <view class="tuijian">
+      <view class="goods-list">
+        <view class="goods-item" wx:for="{{goods_list}}" wx:for-item="item" wx:for-index="index">
+            <view class="goods-item-img"><image src="{{item.img}}" mode="widthFix" /></view>
+            <view class="goods-item-title">{{item.title}}</view>
+            <view class="goods-item-price-shop">
+                <view class="item-price">{{item.price}}</view>
+                <view class="item-shop">
+                    <image src="{{itemShopcar}}" mode="widthFix"/>
+                </view>
+            </view>
+        </view>
+        </view>
+    </view>
+</view>

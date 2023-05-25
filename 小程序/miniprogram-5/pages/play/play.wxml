@@ -1,0 +1,118 @@
+<view class="header">
+    <image src="../../images/arrow.svg" class="arrow"></image>
+    <image src="../../images/Group13.svg"  class="head"></image>
+    <view class="items">
+      <view class="name">
+        小李
+      </view>
+      <view class="time">
+        于 2023-10-20 发布
+      </view>
+    </view>
+    <button class="mind">
+      <image src="../../images/love.svg">
+      </image>
+      <view>
+        关注
+      </view>
+    </button>
+</view>
+<view class="banner">
+  <image src="../../images/image5.svg"  >
+  </image>
+</view>
+<view class="title"> 
+  What a wonderful story! What a 
+wonderful story!
+</view>
+<view class="info">
+  <image src="../../images/Vector2.svg"></image>
+  <image src="../../images/load.svg"></image>
+  <image src="../../images/transfer.svg"></image>
+  <text>1.4k</text>
+  <text>下载</text>
+  <text>转发</text>
+</view>
+<view class="flag">
+  <image src="../../images/green.svg" style="width:3px;height:16px;"></image>
+  <view>
+    评论
+  </view>
+</view>
+<!-- 评论区 -->
+<view class="review">
+  <view>
+    <image src="../../images/Group13.svg" ></image>
+    <image src="../../images/Vector1.svg"></image>
+    <view class="num">
+    123
+    </view>
+    <view class="time">2-1发布</view>
+    <view class="name">小红</view>
+    <view class="comment">哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇</view>
+  </view>
+  <view>
+    <image src="../../images/Group13.svg" ></image>
+    <image src="../../images/Vector1.svg"></image>
+    <view class="num">
+    123
+    </view>
+    <view class="time">2-1发布</view>
+    <view class="name">小红</view>
+    <view class="comment">哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇</view>
+  </view>
+  <view>
+    <image src="../../images/Group13.svg" ></image>
+    <image src="../../images/Vector1.svg"></image>
+    <view class="num">
+    123
+    </view>
+    <view class="time">2-1发布</view>
+    <view class="name">小红</view>
+    <view class="comment">哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇</view>
+  </view>
+  <view>
+    <image src="../../images/Group13.svg" ></image>
+    <image src="../../images/Vector1.svg"></image>
+    <view class="num">
+    123
+    </view>
+    <view class="time">2-1发布</view>
+    <view class="name">小红</view>
+    <view class="comment">哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇</view>
+  </view>
+</view >
+
+<view style="height: 120px;">
+</view>
+<view class="overall">
+<view class="flexlevel">
+<navigator src="#" open-type="switchTab">
+<view class="overall2">
+<image src="../../images/global.svg">
+</image>
+<text>首页</text>
+</view>
+</navigator>
+<navigator src="#" open-type="switchTab">
+<view class="overall2">
+<image src="../../images/shop.svg"></image>
+<text>购物</text>
+</view>
+</navigator>
+<!-- 这是中间的加号 -->
+<navigator src="#" open-type="switchTab"><image src="../../images/add.svg"></image></navigator>
+<navigator src="#" open-type="switchTab">
+<view class="overall2">
+<image src="../../images/message.svg"></image>
+<text>消息</text>
+</view></navigator>
+<navigator src="#" open-type="switchTab">
+<view class="overall2">
+<image src="../../images/crown.svg">
+</image>
+<text>我</text>
+</view>
+</navigator>
+</view>
+</view>

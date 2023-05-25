@@ -1,0 +1,103 @@
+<view class="videoContainer">
+  <!--头部区域-->
+  <view class="sticky">
+  <view class="header">
+    <view class="headerword">
+      首页
+    </view>
+  </view>
+
+  <navigator class="search" url="/pages/search/search">
+    <image src="../video/image/3.svg" mode=""/>
+    <input type="text" placeholder="请输入关键字"/>
+      <!-- 请输入关键字-->
+   
+    
+  </navigator>
+  <!--导航区域-->
+  <view class="navScroll">
+  <!--<view class="navItem" wx:for="{{videoGroupList}}" wx:key="id">-->
+    <view class="navItem" >
+    <!-- <view class="navContent {{navId === item.id?'active': ''}}" bindtap="changeNav" id="{{item.id}}">-->
+      <view class="navContent active" >
+      
+      <!--{{item.name}}-->
+        VR视频
+        <vidw class="navBorder"></vidw>
+      </view>
+    </view>
+    <view class="navItem">
+      <view class="navContent active">
+        裸眼3D
+      </view>
+    </view>
+    <view class="navItem">
+      <view class="navContent active">
+        全息投影
+      </view>
+    </view>
+    <view class="navItem">
+      <view class="navContent active">
+        我的关注
+      </view>
+    </view>
+    
+  </view>
+  </view>
+  <!--视频列表区域-->
+  <scroll-view scroll-y class="videoScroll">
+  <!--wx:for="{{videoList}}-->
+    <view class="videoItem" >
+      <view class="content" >
+        <view class="card">
+          <image src="../video/image/Group 13.svg"   mode="scaleToFill" class="avater" style="vertical-align:middle"/>
+          <view class="name1">
+            卡卡
+          </view>
+          <view class="day1">
+             2.12发布 
+          </view>
+          <view class="vector">
+            <image src="../video/image/Vector.svg" mode=""/>
+          </view>
+        </view>
+      </view>
+      <!--视频播放-->
+      <view class="videocontent">
+      <image src="./image/image 5.svg" mode="scaleToFill"></image>
+      <image src="./image/路径.svg"></image>
+      <image src="./image/love.svg"></image>
+      <text id="t1">What a wonderful story !</text>
+      <text id="t2">1.4 k</text>
+      </view>    
+    </view>
+    <view class="videoItem" >
+      <view class="content" >
+        <view class="card">
+          <image src="../video/image/Group 13.svg"   mode="scaleToFill" class="avater" style="vertical-align:middle"/>
+          <view class="name1">
+            卡卡
+          </view>
+          <view class="day1">
+             2.12发布 
+          </view>
+          <view class="vector">
+            <image src="../video/image/Vector.svg" mode=""/>
+          </view>
+        </view>
+      </view>
+      <!--视频播放-->
+      <view class="videocontent">
+      <image src="./image/image 5.svg" mode="scaleToFill"></image>
+      <image src="./image/路径.svg"></image>
+      <image src="./image/love.svg"></image>
+      <text id="t1">What a wonderful story !</text>
+      <text id="t2">1.4 k</text>
+      </view>
+    </view>  
+  </scroll-view>
+
+<my-bar></my-bar>
+
+
+</view>

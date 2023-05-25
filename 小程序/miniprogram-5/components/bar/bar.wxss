@@ -1,0 +1,66 @@
+page,image,view,navigator{
+  padding: 0;
+  margin: 0;
+}
+text{
+  color: #FFFFFF;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+.overall{
+  height: 54px;
+  width: 100%;
+  background-color: #191923;
+  display: block;
+  position:fixed;
+  bottom: 0px;
+}
+.overall2{
+  display: flex;
+  flex-direction: column;
+}
+.flexlevel{
+  display: flex;
+  width:100%;
+  height: 100%;
+}
+.overall .flexlevel navigator{
+  flex:1;
+  display: flex;
+} 
+.overall .flexlevel navigator .overall2{
+  flex: 1;
+  justify-items: center;
+  align-items: center;
+}
+.overall .flexlevel navigator:nth-of-type(3) image
+{
+  width: 38.49px;
+  height: 38.49px;
+  flex: 1;
+  transform: translateY(18%);
+  align-items: center;
+}
+.overall .flexlevel navigator:nth-of-type(1) image{
+  width: 39px;
+  height: 39px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(2) image
+{
+  width: 26px;
+  height: 26px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(4) image
+{
+  width: 30px;
+  height: 30px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(5) image
+{
+    width: 26px;
+    height: 26px;
+    flex: 1 54px;
+}

@@ -1,0 +1,42 @@
+<!--pages/ticket/ticket.wxml-->
+<view class="TicketContainer">
+  <!--头部区域-->
+  <view class="header">
+    <image src="../ticket/image/1.svg" mode=""/>
+    <text class="Myticket">我的券</text>
+  </view>
+  <view class="Container">
+    <text class="payment">实付款：</text>
+    <text class="dollar">￥</text>
+    <text class="money">11690</text>
+    <text class="used">已使用</text>
+    <view class="banner">
+      <view class="title">
+        Cardi B 说唱音乐分享会 
+      </view>
+      <view class="details">
+        Cardi B，1992年10月11日出生于美国纽约布朗...
+      </view>
+      <view class="image1">
+        <image src="./image/2.svg" mode=""/>
+      </view>
+      <view class="voucher">
+        券码
+      </view>
+      <view class="code">
+        110 22656 00315
+      </view>
+      <view class="image2">
+        <image src="./image/查看图片_fbb26877.svg" mode=""/>
+      </view>
+      
+    </view>
+    <view class="footer">
+        <view class="judge">
+          评价
+        </view>
+      </view>
+  </view>
+  
+  
+</view>

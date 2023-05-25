@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #FFFFFF;
+    color: #767676;
+    font-weight: 400;
+    font-size: 18px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: relative;
+    height: 100px;
+    width: 1272px;
+    background-color: pink;
+    margin: 0 auto;
+}
+/* 主要部分 */
+.main{
+    position: relative;
+    width: 1272px;
+    margin:auto;
+    overflow: hidden;
+    /* 不设置高度，让子盒子去撑开大盒子 */
+    background-color: rgb(251, 251, 255);
+}
+/* 搜索栏 */
+.main .root{
+    position: relative;
+    height: 50px;
+    width: 1236px;
+    margin:24px auto;
+    /* background-color: antiquewhite; */
+}
+.main .root .left{
+    position: relative;
+    float: left;
+    width: 264px;
+    height: 50px;
+    /* background-color: aqua; */
+    border-radius: 50px;
+}
+.main .root .left .r{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    background-color: #E0EAFF;
+    border-radius: 48px;
+}
+.main .root .left img{
+    position: absolute;
+    z-index: 2;
+    right: 14px;
+    top: 16px;
+    height: 16px;
+    width: 20px;
+}
+.main .root .left .date{
+    position: absolute;
+    width: 100% ;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.main .root .right{
+    position: relative;
+    float: right;
+}
+.main .root .right input{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 50px;
+    width: 943px;
+    padding-left: 14px;
+    border-radius: 23px;
+    border: none;
+}
+.main .root .right img{
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+}
+.main .history{
+    position: relative;
+}
+.main .history ul li{
+    position: relative;
+    width: 1236px;
+    height: 235px;
+    border-radius: 12px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+.main .history ul li .left{
+    position: absolute;
+    top: 18px;
+    left: 14px;
+    width: 1086px;
+    height: 200px;
+    border-right: 1px solid #D8D8D8;
+    /* background-color: blue; */
+}
+.main .history ul li .left .old{
+    width: 1054px;
+    height: 56px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+.main .history ul li .left .new{
+    width: 1054px;
+    height: 84px;
+
+}
+.main .history ul li .left .info{
+    position: relative;
+    width: 1054px;
+    height: 26px;
+    margin-top: 30px;
+    font-weight: 350;
+}
+.main .history ul li .left .info .time{
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    width: 190px;
+    height: 26px;
+}
+.main .history ul li .left .info .num{
+    position: absolute;
+    top: 0px;
+    left: 255px;
+    width: 106px;
+    height: 26px;
+}
+.main .history ul li .left .info img{
+    position: absolute;
+     top:4px;
+     left:0px;
+     height: 20px;
+     width: 20px;
+}
+
+.main .history ul li .right{
+    position: relative;
+}
+.main .history ul li .right img{
+    position: absolute; top:106px;right:60px;height: 30px;width: 30px;
+}

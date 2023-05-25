@@ -1,0 +1,359 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #050505;
+}
+/* 大版心 */
+.w{
+    position: relative;
+    width: 1440px;
+    margin:auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: relative;
+    height: 72px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+ .logo{
+    position: absolute;
+    top:9px;
+    width: 54px;
+    height: 54px;
+    /* float: left;
+    width: 100px;
+    height: 54px;
+    line-height: 54px;
+    margin-left: 30px;  */
+}
+ .search{
+ position: absolute;
+ top: 14px;
+ left: 127px;
+    width: 290px;
+    height: 54px;
+    /* margin-left: 27px;
+    margin-top: 14px; */
+    
+}
+.search input{
+    float: left;
+    width: 230px;
+    height: 44px;
+    line-height: 44px;
+    border:0 ;
+    border-radius: 10px 0 0 10px;
+    padding-left: 20px;
+    color:rgb(0,0,0);
+    font-size: 14px;
+    margin: auto ;
+}
+.search button{
+    float: left;
+    width: 40px;
+    height: 44px;
+    border-radius: 0 10px 10px 0;
+    background-color: #fff;
+    border: 0;
+}
+.nav{
+    position: absolute;
+    left: 444px;
+    margin-left: 238px;
+}
+.nav ul li{
+    float: left;
+    margin: 18px 13px;
+}
+.nav ul li a{
+    display: block;
+    height: 36px;
+    /* padding:0 7px; */
+    width: 65px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 36px;
+}
+.nav ul li a:hover{
+    background-color: rgb(89, 89, 89);
+    border-radius: 5px;
+}
+.user{
+    position: absolute;
+    left: 1037px;
+    width: 190px;
+    height: 72px;
+    margin-left: 203px;
+}
+.b{
+    float: left;
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+}
+.user .b1{
+    background-color: black;
+}
+.user .b2{
+    width: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
+/* 作者介绍栏 */
+.root{
+    height: 138px;
+    /* background-color: antiquewhite; */
+}
+.root .left{
+    float: left;
+    width: 430px;
+    height: 138px;
+    /* background-color: blue; */
+
+}
+.root .left h2{
+    position: absolute;
+    top: 42px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.root .left .info{
+    position: relative;
+    top: 100px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+.root .left .info span{
+    position: relative;
+    top: -4px;
+    margin: 5px;
+}
+.root .right{
+    float: right;
+    width: 500px;
+    height: 138px;
+    /* background-color: aqua; */
+}
+.root .right .top{
+    position: relative;
+    top: 10px;
+    width: 500px;
+    height: 85px;
+}
+.root .right .top div{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+.root .right .top div .name{
+    position: absolute;
+    top: 3px;
+    font-size: 20px;
+}
+.root .right .bot{
+    position: relative;
+    width: 500px;
+    height: 50px;
+}
+.root .right .bot .blue{
+    position: absolute;
+    bottom: 16px;
+    left: 50px;
+    width: 186px;
+    height: 28px;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    background-color: #5892FF;
+    border-radius: 12px;
+}
+.root .right .bot .white span{
+    position: absolute;
+    bottom: 16px;
+    left: 310px;
+    width: 186px;
+    height: 28px;
+    color: black;
+    line-height: 28px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.root .right .bot .white img{
+    position: absolute;
+    z-index: 1;
+    left: 355px;
+    top: 6px;
+}
+/* 主要部分 */
+.main{
+    overflow: hidden;
+    /* 不设置高度，让子盒子去撑开大盒子 */
+    background-color: rgb(28, 28, 28);
+}
+/* 右边视频 */
+.video{
+    float: left;
+    margin-left: 20px;
+    width: 920px;
+    height: 517.5px;
+    background-color: rgb(28, 28, 28);
+}
+/* 左边列表 */
+.list{
+    position: relative;
+    float: right;
+    width: 500px;
+    height: 1405px;
+    background-color: rgba(28, 28, 28, 0.346);
+    /* background-color: pink; */
+    color: #fff;
+    font-weight: 700;
+}
+.list>h4{
+    position: relative;
+    left: 31px;
+    width: 438px;
+    height: 67px;
+    line-height: 67px;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid #BBBBBB66;
+}
+.list ul li{
+    position: relative;
+    height: 106px;
+    width: 438px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+.list ul li .info{
+    position: absolute;
+    top: 80px;
+    left: 3px;
+    width: 177px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.list ul li div:nth-of-type(2){
+    position: relative;
+    top: -45px;
+    display: inline-block;
+    height: 106px;
+    width: 200px;
+    margin: 14px;
+}
+.list ul li .info span{
+    font-size: 10px;
+}
+.list ul li .info .time{
+    position: relative;
+    left: 77px;
+    font-size: 10px;
+}
+.list ul li div h4{
+    font-size: 18px;
+}
+.list ul li div h5{
+    position: relative;
+    top: 14px;
+}
+/* 作者姓名 */
+.list ul li div h5 span{
+    position: absolute;
+    top: 0px;
+    left: 19px;
+    font-size: 10px;
+}
+.list ul li div .div{
+    position: relative;
+    top: 23px;
+    font-size: 10px;
+}
+.list ul li div .div img:nth-child(n+2){
+    position: relative;
+    left: 28px;
+}
+.list ul li div .div span{
+    position: relative;
+    top: -5px;
+    left: 36px;
+}
+.list ul li div .div span:nth-of-type(1){
+    left: 7px;
+}
+.list button{
+    position: relative;
+    left: 29px;
+    top:27.5px;
+    width: 438px;
+    height: 66px;
+    background-color: rgb(92, 92, 92);
+    border: 0;
+    border-radius: 8px;
+    margin: 27px auto;
+    color: #fff;
+    font-size: 18px;
+}
+/* 底栏 */
+.bottom{
+    position: relative;
+    height: 200px;
+    margin-top: 90px;
+}
+.bottom .q{
+    padding-top: 50px;
+}
+.bottom .copyright{
+    position: absolute;
+    left: 0;
+    width: 260px;
+}
+.bottom .copyright span{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 34px;
+}
+.bottom .links {
+    position: absolute;
+    right: 65px;
+    margin-left: 10px;
+}
+.bottom .links dl{
+    float: left;
+    width: 249px;
+}
+.bottom .links dl dt{
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.bottom .links dl dd{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(187, 187, 187);
+}
+

@@ -1,0 +1,144 @@
+page{
+    width: 100%;
+    display: flex;
+}
+
+.big-cont {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sucess-logo {
+    height: 48px;
+    overflow: hidden;
+    position: absolute;
+    left: 30%;
+    top: 9px;
+}
+
+.sucess-logo image {
+    width: 70px;
+    height: 70px;
+}
+
+.sucess-text {
+    /* 支付成功！ */
+    position: absolute;
+    left: 45%;
+    top: 28px;
+    width: 100px;
+    height: 28px;
+    opacity: 1;
+    font-family: PingFang SC;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0em;
+    /* 白色字体 */
+    color: #FFFFFF;
+}
+
+.twobtn {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+}
+
+.twobtn .mid {
+    width: 50px;
+}
+
+.twobtn button {
+    /* 容器 215 */
+    /* 自动布局子元素 */
+    justify-content: center;
+    position: static;
+    left: 110px;
+    top: 0px;
+    width: 100px;
+    height: 28px;
+    border-radius: 45px;
+    opacity: 1;
+    /* 自动布局 */
+    display: flex;
+    flex-direction: column;
+    padding: 4px 12px;
+    gap: 10px;
+    box-sizing: border-box;
+    /* 灰色 */
+    border: 1px solid #757378;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sucess-box .line {
+    /* 路径 1 */
+    position: absolute;
+    left: 15%;
+    top: 140px;
+    width: 70%;
+    height: 0px;
+    opacity: 1;
+    border: 0.1px solid #D8D8D8;
+}
+
+.tuijian {
+    position: absolute;
+    top: 180px;
+}
+
+.goods-list {
+    height: 550rpx;
+    width: 100%;
+    border-radius: 12.5px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 4px;
+}
+
+.goods-list .goods-item {
+    width: 49%;
+    border-radius: 12.5px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+}
+
+
+
+.goods-item .goods-item-img image {
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: 185px;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.goods-item .goods-item-title {
+    color: #fff;
+    position: static;
+    font-size: 13.5px;
+    opacity: 1;
+}
+
+.goods-item .goods-item-price-shop {
+    display: flex;
+}
+
+.goods-item-price-shop .item-price {
+    font-size: 15px;
+}
+
+.goods-item-price-shop .item-shop {
+    margin-left: 95px;
+}
+
+.goods-item-price-shop .item-shop image {
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: 19px;
+    opacity: 1;
+}

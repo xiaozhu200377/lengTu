@@ -1,0 +1,67 @@
+<view class="container">
+  <view class="con-top">
+    <view class="con-top-left">极简交易平台</view>
+    <view class="con-top-right">
+      <view class="shopCar">
+        <image src="{{shopCar_src}}" mode="" style="width:45rpx; height:45rpx" />
+        <view class="car_text">购物车</view>
+      </view>
+      <view class="shopBook">
+        <image src="{{book_src}}" mode="" style="width:45rpx; height:45rpx" />
+        <view class="book_text">订单</view>
+      </view>
+    </view>
+    <view style="clear:both"></view>
+  </view>
+  <view class="search-div">
+    <view class="search-box">
+      <icon class="search-icon" type="search" size="23" color="black"></icon>
+      <input type="text" placeholder="请输入关键字" class="search-input" />
+    </view>
+  </view>
+  <view class="auto-share">
+    <view class="auto-img"><image src="../../images/recommend.svg" mode="widthFix"/></view>
+  </view>
+  <view class="compo">
+    <view class="compo-left">
+      <view class="back-icon" hover-class="none" hover-stop-propagation="false">
+        <image class="vr-world" src="{{vr_world}}" mode="" />
+      </view>
+      <view class="vr-text">VR 世界</view>
+      <view class="detail-icon">
+        <image class="detail-img" src="{{detail_icon}}"></image>
+      </view>
+    </view>
+    <view class="compo-right">
+      <view class="back-icon" hover-class="none" hover-stop-propagation="false">
+        <image class="icon-3d" src="{{icon_3d}}" mode="" />
+      </view>
+      <view class="vr-text">3D 打印</view>
+      <view class="detail-icon">
+        <image class="detail-img" src="{{detail_icon}}"></image>
+      </view>
+    </view>
+  </view>
+  <view class="hr-text">
+    <view class="hr"></view>
+    <view class="r-text">UNFETTERCREW 说唱聚集地</view>
+  </view>
+  <view class="goods-list">
+    <view class="goods-item" wx:for="{{goods_list}}" wx:for-item="item" wx:for-index="index">
+      <view class="goods-item-img"><image src="{{item.img}}" mode="widthFix" /></view>
+      <view class="goods-item-title">{{item.title}}</view>
+      <view class="goods-item-price-shop">
+        <view class="item-price">{{item.price}}</view>
+        <view class="item-shop">
+          <image src="{{itemShopcar}}" mode="widthFix"/>
+        </view>
+
+      </view>
+
+
+    </view>
+
+  </view>
+
+</view>
+<my-bar></my-bar>

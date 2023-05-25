@@ -1,0 +1,301 @@
+/* pages/play/play.wxss */
+page{
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+/* 头栏 */
+.header{
+  position: relative;
+  height: 43px;
+  width: 100%;
+  background-color: black;
+}
+/* 返回标志 */
+.header .arrow {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 9.5px;
+  height: 16.5px;
+  padding:  0 0;
+}
+/* 头像 */
+.header .head{
+  position: absolute;
+  left: 40px;
+  top: 2.5px;
+  width: 40px;
+  height: 40px;
+}
+.header .items{
+  position: relative;
+  /* display: inline-block; */
+  left: 92px;
+  height: 43px;
+  width: 184px;
+  /* background-color: aqua; */
+}
+/* 发布者名字 */
+.header .items .name{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 184px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* 发布时间 */
+.header .items .time{
+  position: absolute;
+  top: 26px;
+  left: 0;
+  color: #6D6A71;
+  font-weight: 400;
+  font-size: 12px;
+}
+/* 关注 */
+.header .mind{
+  position: absolute;
+  top: 9.5px;
+  right: 12px;
+  width: 78px;
+  height: 24px;
+  background-color: #8444FF;
+  border-radius: 18px;
+  padding: 0 0;
+  margin: 0;
+}
+.header .mind image{
+  position: absolute;
+  left: 13.33px ;
+  top: 6.5px;
+  width: 13.33px;
+  height: 13.33px;
+}
+.header .mind view{
+  position: absolute;
+  left: 31px;
+  top: 2.7px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  color: white;
+  padding: 0 0 ;
+  font-weight: 400;
+}
+/* 视频播放部分 */
+.banner{
+  position: relative;
+  width:95%;
+  height: 249px;
+  margin: 22px auto;
+  /* background-color: #ccc; */
+  border-radius: 8px;
+}
+.banner image{
+  width: 100%;
+  /* height: 214px; */
+}
+/* 视频标题 */
+.title{
+  position: relative;
+  left: 12px;
+  width: 82.67%;
+  font-size: 20px;
+  background-color: black;
+}
+/* 心心，下载，转发 */
+.info{
+  position: relative;
+  top: 16px;
+  width: 100%;
+  height: 51px;
+  margin: auto;
+  /* background-color: blanchedalmond; */
+}
+.info image:nth-child(1){
+  position: absolute;
+  left: 16px;
+  top: 5px;
+  width: 25px;
+  height: 21.45px;
+}
+.info image:nth-child(2){
+  position: absolute;
+  right: 68.64px;
+  top: 0px;
+  width: 28.71px;
+  height: 28.71px;
+}
+.info image:nth-child(3){
+  position: absolute;
+  right: 16.5px;
+  top: 0px;
+  width: 28.71px;
+  height: 28.71px;
+}
+.info text:nth-of-type(1){
+  position: absolute;
+  display: inline-block;
+  left: 16px;
+  top: 34px;
+  width: 29px;
+  height: 17px;
+  color: #C2C2C2;
+  font-size: 12px;
+}
+.info text:nth-of-type(2){
+  position: absolute;
+  right: 71px;
+  top: 33.5px;
+  width: 24px;
+  height: 17px;
+  color: #C2C2C2;
+  font-size: 12px;
+}
+.info text:nth-of-type(3){
+  position: absolute;
+  right: 19px;
+  top: 33.5px;
+  width: 24px;
+  height: 17px;
+  color: #C2C2C2;
+  font-size: 12px;
+}
+.flag{
+  position: relative;
+  top: 34px;
+  left: 7px;
+  height: 18px;
+  width: 100%;
+}
+.flag view{
+  position: absolute;
+  left: 13px;
+  top: -2px;
+  font-size: 16px;
+}
+/* 评论区 */
+.review{
+  position: relative;
+  top: 42px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.review>view{
+  position: relative;
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #373543;
+
+}
+.review>view .time{
+  position: absolute;
+  right: 19px;
+  top: 70px;
+  font-size: 12px;
+  color: #757378;
+}
+.review>view image:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 12px;
+  height: 34px;
+  width: 34px;
+}
+.review>view image:nth-child(2){
+  position: absolute;
+  top: 12px;
+  right: 42.78px;
+  height: 10px;
+  width: 12.22px;
+}
+.review>view .num{
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  height: 18px;
+  width: 30px;
+  font-size: 12px;
+  color: #C8C8C8;
+}
+.review>view .name{
+  position: absolute;
+  left: 54px;
+  top: 4px;
+  width: 200px;
+  height: 15px;
+}
+.review>view .comment{
+  position: absolute;
+  width: 82.1%;
+  top: 37px;
+  left: 54px;
+}
+/* tabBar */
+.overall text{
+  color: #FFFFFF;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+.overall{
+  height: 54px;
+  width: 100%;
+  background-color: #191923;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+}
+.overall2{
+  display: flex;
+  flex-direction: column;
+}
+.flexlevel{
+  display: flex;
+  width:100%;
+  height: 100%;
+}
+.overall .flexlevel navigator{
+  flex:1;
+  display: flex;
+} 
+.overall .flexlevel navigator .overall2{
+  flex: 1;
+  justify-items: center;
+  align-items: center;
+}
+.overall .flexlevel navigator:nth-of-type(3) image
+{
+  width: 38.49px;
+  height: 38.49px;
+  flex: 1;
+  transform: translateY(18%);
+  align-items: center;
+}
+.overall .flexlevel navigator:nth-of-type(1) image{
+  width: 39px;
+  height: 39px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(2) image
+{
+  width: 20.12px;
+  height: 22.76px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(4) image
+{
+  width: 20.62px;
+  height: 16.9px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(5) image
+{
+    width: 26px;
+    height: 26px;
+    flex: 1 54px;
+}

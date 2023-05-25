@@ -1,0 +1,31 @@
+<view class="overall">
+<view class="flexlevel">
+<navigator url="../../pages/video/video" open-type="navigate">
+<view class="overall2">
+<image src="../../images/universe.svg">
+</image>
+<text>首页</text>
+</view>
+</navigator>
+<navigator url="../../pages/shopMallindex/shopMallindex" open-type="navigate" bindfail="FindError">
+<view class="overall2">
+<image src="../../images/shopping.svg"></image>
+<text>购物</text>
+</view>
+</navigator>
+<!-- 这是中间的加号 -->
+<navigator src="#" open-type="navigate"><image src="../../images/plus.svg"></image></navigator>
+<navigator src="#" open-type="navigate">
+<view class="overall2">
+<image src="../../images/message.svg"></image>
+<text>消息</text>
+</view></navigator>
+<navigator src="#" open-type="navigate">
+<view class="overall2">
+<image src="../../images/me.svg">
+</image>
+<text>我</text>
+</view>
+</navigator>
+</view>
+</view>

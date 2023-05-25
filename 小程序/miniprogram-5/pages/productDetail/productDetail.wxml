@@ -1,0 +1,109 @@
+<view class="out-cont">
+  <view class="cont-top">
+    <text class="top-title" selectable="false" space="false" decode="false">
+        商品详情
+    </text>
+  </view>
+  <view class="con-midd" hover-class="none" hover-stop-propagation="false">
+    <view class="product-img">
+          
+      <swiper class="" indicator-dots="true" indicator-color="rgba(0,0,0,.3)" autoplay="false" 
+        current="0" current-item-id="" interval="5000" duration="1000" circular="false" vertical="false" 
+      previous-margin="false" next-margin="0px" display-multiple-items="1" skip-hidden-item-layout="false" bindchange="" bindanimationfinish="">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item class="" item-id="">
+            <image class="" src="{{item}}" mode="widthFix" style="width: 100%;" lazy-load="false" binderror="" bindload=""></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    <view class="space-icon" hover-class="none" hover-stop-propagation="false">
+      <image class="icon-img" src="{{space_3D}}" mode="widthFix" lazy-load="false" binderror="" bindload=""> </image>
+    </view>
+<!-- 这里是大图下面的小图和商品名字 -->
+  <view class="min-back" hover-class="none" hover-stop-propagation="false">
+  <scroll-view scroll-x="true">
+    <view class="scroll">
+      <view wx:for="{{min_img}}" wx:key="index">
+        <image class="dir" src="{{item}}"></image>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 这里是商品标题 -->
+  <view class="title" hover-class="none" hovser-stop-propagation="false">
+    深技大限定文创3D衣服</view>
+  <view class="HowManyPeoToGet" hover-class="none" hover-stop-propagation="false">
+    1.1w+ 人付款
+  </view>
+  </view>
+</view>
+
+    <!-- 这里是选择商品规格 -->
+  <view class="big-info">
+    <view class="row-item" wx:for="{{protuctchose}}">
+      <view class="row-item-title" hover-class="none" hover-stop-propagation="false">
+        {{item.title}}
+      </view>
+      <view class="row-item-detail" hover-class="none" hover-stop-propagation="false">
+        {{item.detail}}
+      </view>
+      <view class="row-item-know" hover-class="none" hover-stop-propagation="false">
+        <image class="" src="cloud://cloud1-2gdz38hz9226e97f.636c-cloud1-2gdz38hz9226e97f-1316184354/minishop/toKnoemore.svg" 
+        mode="widthFix" lazy-load="false" binderror="" bindload="" style="width:14.49px;"/>
+      </view>
+    </view>
+  </view>
+  
+<view class="product-detail-cont" hover-class="none" hover-stop-propagation="false">
+  <view class="detail-top">
+    <text class="top-text" selectable="false" space="false" decode="false">商品详情</text>
+  </view>
+
+  <view class="detail-info" hover-class="none" hover-stop-propagation="false">
+    <text class="" selectable="false" space="false" decode="false">
+      穿上Nike Sportswear Club男子全拉链开襟连帽衫，以经典造型诠释简约街头风尚。采用柔软的法式
+毛圈面料制成，打造出色包覆效果和舒适穿着体验。
+    </text>
+  </view>
+      <image class="first-img" src="{{first_img}}" mode="widthFix" lazy-load="false" binderror="" bindload="">  
+    </image>
+
+  <view class="detail-show" hover-class="none" hover-stop-propagation="false">
+    <view class="detail-show-top" hover-class="none" hover-stop-propagation="false">
+      <text class="top-text" selectable="false" space="false" decode="false">
+        —— 细节展示 ——
+      </text>
+    </view>
+    <view class="detail-show-cont">
+    <view class="detail-show-img" wx:for="{{detailshow_img}}" wx:for-item="item">
+      <image class="item-img" src="{{item}}" mode="awidthFix" style="width:100%;" lazy-load="false" binderror="" bindload=""/>   
+    </view>
+  </view>
+  </view>
+</view>
+
+<!-- 这里是底部买这个商品的 -->
+<view class="shop-bottom">
+  <page-meta class="left-price">
+    ￥546
+  </page-meta>
+<view class="navi">
+
+  <navigator class="addTocar" target="" url="" hover-class="navigator-hover" open-type="navigate">
+    <image class="" src="cloud://cloud1-2gdz38hz9226e97f.636c-cloud1-2gdz38hz9226e97f-1316184354/图片svg/3.1购物车.svg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""/>
+  </navigator>
+
+  <!-- <navigator class="ToshopIt" target="" url="" hover-class="navigator-hover" open-type="navigate">
+    <text class="shopT" selectable="false" space="false" decode="false">
+      购买
+    </text>
+
+  </navigator> -->
+<button  class="ToshopIt" bindtap="Toshop">购买</button>
+</view>
+</view>
+
+
+  </view>
+</view>
+
+<!-- <my-bar></my-bar> -->

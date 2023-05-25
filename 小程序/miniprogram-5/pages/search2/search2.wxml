@@ -1,0 +1,155 @@
+<view class="header">
+  <image src="../../images/arrow.svg"></image>
+  <view class="container">
+    <image src="../../images/search.svg"></image>
+    <image src="../../images/false.svg"></image>
+    <!-- <input type="text" placeholder="请输入关键字"/> -->
+    <navigator url="/pages/play/play">请输入关键字</navigator>
+  </view>
+</view>
+<view class="sort1">
+  <navigator>视频</navigator>
+  <navigator>用户</navigator>
+  <navigator>商品</navigator>
+</view>
+<view class="sort2">
+  <navigator>
+    <image src="../../images/Vector.svg"></image>
+    <view>综合</view>
+  </navigator>
+  <navigator>
+    <image src="../../images/Frame.svg"></image>
+    <view>发布时间</view>
+  </navigator>
+  <navigator>
+    <image src="../../images/Frame.svg"></image>
+    <view>热度</view>
+  </navigator>
+</view>
+<!-- 视频播放部分 -->
+<view class="main">
+  <ul>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+    <li>
+      <image src="../../images/image6.svg"></image>
+      <view class="title">
+        What a wonderful story! What a wonderful...
+      </view>
+      <view class="introduce">
+        <image src="../../images/Group13.svg"></image>
+          <view class="n">
+            小李
+          </view>
+          <view class="t">
+            2023-10-20
+          </view>
+          <image src="../../images/Vector1.svg" class="like"></image>
+          <view class="num">1.4K</view>
+      </view>
+    </li>
+  </ul>
+</view>
+
+
+

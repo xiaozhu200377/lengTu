@@ -1,0 +1,60 @@
+<view class="pageContainer">
+    <image src="../../images/background.svg" mode="widthFix"></image>
+    <image src="../../images/arrow.svg"></image>
+    <image src="../../images/jianbian.svg" mode="widthFix"></image>
+    <view>活动详情</view>
+    <view class="title">Cardi B 说唱音乐分享会</view>
+    <view class="introduce">Cardi B，1992年10月11日出生于美国纽约布朗克斯区，美国说唱歌手、词曲作者、演员。2013年，卡迪·B开始活跃于各个社交平台...
+    </view>
+</view>
+<view class="time">
+  <image src="../../images/time.svg"></image>
+  <view>时间：16 : 30 - 20 : 30</view>
+</view>
+<view class="position">
+<image src="../../images/position.svg"></image>
+<view>地点：深圳技术大学的某个树荫底下</view>
+</view>
+<view class="roll">
+<view>入场券设计</view>
+<image src="../../images/green.svg"></image>
+<view>TICKET DESIGN</view>
+</view>
+
+<view class="out">
+  <view><image src="../../images/1.svg"></image></view>
+  <view><image src="../../images/2.svg"></image></view>
+  <view><image src="../../images/3.svg"></image></view>
+</view>
+<view class="bill">
+<view>海报设计</view>
+<image src="../../images/green.svg"></image>
+<view>POSTER DESIGN</view>
+</view>
+
+
+<swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" autoplay interval="3000" circular next-margin="0">
+<swiper-item>
+<image src="../../images/left.svg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/right.svg" ></image>
+</swiper-item>
+<swiper-item><image src="../../images/left.svg" ></image></swiper-item>
+<swiper-item>
+  <image src="../../images/right.svg"></image>
+</swiper-item>
+<swiper-item><image src="../../images/left.svg"></image></swiper-item>
+<swiper-item>
+  <image src="../../images/right.svg"></image>
+</swiper-item>
+</swiper>
+
+<view class="bottom">
+  <view>
+  ￥<text>595</text>
+  </view>
+  <button style="width: 19.2%; height: 50%;">
+    购买
+  </button>
+</view>

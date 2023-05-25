@@ -1,0 +1,260 @@
+/* pages/search/search.wxss */
+page{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  background-color: rgb(19, 18, 23);
+}
+.header{
+  position: relative;
+  height: 40px;
+  width: 100%;
+  /* background-color: wheat; */
+}
+.header>image:nth-child(1){
+  position: absolute;
+  left: 17.75px;
+  top: 12.75px;
+  width: 8.5px;
+  height: 12px;
+}
+.header .container{
+  position: relative;
+  left: 46px;
+  top: 0;
+  width: 85.06%;
+  height: 40px;
+  padding: 0;
+}
+.header navigator{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding: 10px 0 0 45px;
+  box-sizing: border-box;
+  color: #6D6A71;
+  background-color: #48454C;
+  border-radius: 32px;
+  font-size: 14px;
+}
+.header .container image:nth-of-type(1){
+  position: absolute;
+  left:15px;
+  top: 10px;
+  width: 19.86px;
+  height: 19.86px;
+}
+.header .container image:nth-of-type(2){
+  position: absolute;
+  right: 11.6px;
+  top: 12.61px;
+  width: 10.5px;
+  height: 10.47px;
+}
+/* 导航栏1 */
+.sort1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 94.67%;
+  height: 40px;
+  font-size: 14px;
+  /* background-color: tomato; */
+  margin: 15px  auto 0;
+}
+.sort1 .navigator-hover{
+  width: 28px;
+  height: 20.38px;
+  border-bottom: 3px solid #23FFAA;
+}
+/* 导航栏2 */
+.sort2{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin:10px auto 0;
+  width: 94.67%;
+  height: 30px;
+  /* background-color: turquoise; */
+}
+.sort2 navigator{
+  position: relative;
+  width: 117px;
+  height: 30px;
+}
+.sort2 navigator:nth-child(1) view{
+  position: absolute;
+  left: 38.5px;
+  top: 7.98px;
+}
+.sort2 navigator:nth-child(2) view{
+  position: absolute;
+  left: 24px;
+  top: 7.48px;
+}
+.sort2 navigator:nth-child(3) view{
+  position: absolute;
+  left: 34px;
+  top: 7.48px;
+}
+.sort2 navigator:nth-of-type(1) image{
+  position: absolute;
+  left: 68.5px;
+  top: 12.08px;
+  width: 10px;
+  height: 5.84px;
+}
+.sort2 navigator:nth-of-type(2) image{
+  position: absolute;
+  left:78px;
+  top: 9px;
+  width: 14px;
+  height: 14px;
+}
+.sort2 navigator:nth-of-type(3) image{
+  position: absolute;
+  left:64px;
+  top: 9px;
+  width: 14px;
+  height: 14px;
+}
+/* main */
+.main{
+  width: 94.67%;
+  margin: 16px auto;
+  overflow: hidden;
+  /* background-color: rgb(224, 128, 11); */
+}
+.main ul li{
+  position: relative;
+  float: left;
+  width: 48.59%;
+  /* height: 50px; */
+  /* background-color: rgb(21, 204, 228); */
+  margin: 0 0 3.932% 0;
+  border-radius: 8px;
+}
+.main ul li:nth-child(2n+1){
+  margin: 0 2.81% 3.932% 0;
+}
+.main ul li>image{
+  /* float: left; */
+  width: 100%;
+  height: 122px;
+}
+.main ul li .title{
+  /* float: left; */
+  width: 98.26%;
+  font-size: 14px;
+  margin: 14px 0;
+}
+.main ul li .introduce{
+  position: relative;
+  height: 35px;
+}
+.main ul li .introduce image{
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+}
+/* 发布者名字 */
+.main ul li .introduce .n{
+  position:absolute;
+  top: 2.5px;
+  left: 41px;
+  width: 57.8%;
+  height: 20px;
+  color: #CBCBCB;
+}
+/* 发布时间 */
+.main ul li .introduce .t{
+  position: absolute;
+  bottom: 2.5px;
+  left: 41px;
+  width: 61px;
+  height: 10px;
+  color: #B0AEB4;
+  font-size: 10px;
+}
+.main ul li .introduce .like{
+  position: absolute;
+  right: 35px;
+  top:21px;
+  width: 11px;
+  height: 9px;
+}
+.main ul li .introduce .num{
+  position: absolute;
+  right: 0;
+  top:17px;
+  width: 29px;
+  height: 18px;
+}
+/* tabBar */
+.overall text{
+  color: #FFFFFF;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+.overall{
+  height: 54px;
+  width: 100%;
+  background-color: #191923;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+}
+.overall2{
+  display: flex;
+  flex-direction: column;
+}
+.flexlevel{
+  display: flex;
+  width:100%;
+  height: 100%;
+}
+.overall .flexlevel navigator{
+  flex:1;
+  display: flex;
+} 
+.overall .flexlevel navigator .overall2{
+  flex: 1;
+  justify-items: center;
+  align-items: center;
+}
+.overall .flexlevel navigator:nth-of-type(3) image
+{
+  width: 38.49px;
+  height: 38.49px;
+  flex: 1;
+  transform: translateY(18%);
+  align-items: center;
+}
+.overall .flexlevel navigator:nth-of-type(1) image{
+  width: 39px;
+  height: 39px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(2) image
+{
+  width: 20.12px;
+  height: 22.76px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(4) image
+{
+  width: 20.62px;
+  height: 16.9px;
+  flex: 1;
+}
+.overall .flexlevel navigator:nth-of-type(5) image
+{
+    width: 26px;
+    height: 26px;
+    flex: 1 54px;
+}

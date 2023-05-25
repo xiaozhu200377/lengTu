@@ -1,0 +1,446 @@
+/* pages/search/search.wxss */
+.header{
+  position: relative;
+  display:flex;
+  background-color:#000;
+  height:40px;
+  line-height: 40px;
+}
+
+.header image{
+  /* Union */
+
+position: absolute;
+ left: 1.6%;
+top: 8px;
+width: 24px;
+height: 24px;
+opacity: 1; 
+	
+	
+}
+
+.searchinput{
+
+/* 容器 187 */
+  flex:1;
+/* 自动布局子元素 */
+  position: absolute;
+  left: 3.6%;
+  top: 0px;
+  width: 76%;
+  height: 40px;
+  border-radius: 32px;
+  opacity: 1;
+	
+/* 深灰色 */
+  background: #48454C;
+	
+  z-index: 0;
+}
+
+.searchinput image{
+  /* 路径 */
+
+position: absolute;
+left: 5.26%;
+top: 10px;
+width: 20px;
+height: 20px;
+opacity: 1;
+	
+/* 灰色字体 */
+
+	
+}
+
+.searchinput input{
+  position: absolute;
+  top:0px;
+  height: 40px;
+  left: 15.79%;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0em;
+
+/* 灰色字体 */
+  color: #6D6A71;
+
+  z-index: 1;
+}
+
+.cancel{
+
+
+/* 取消 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 89.33%;
+top: -2px;
+width: 28px;
+height: 20px;
+opacity: 1;
+	
+font-family: Source Han Sans CN;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 灰白色 */
+color: #C2C2C2;
+	
+z-index: 1;
+}
+
+.history{
+  position: relative;
+  background-color: #000;
+  /* 容器 28 */
+height: 50px;
+opacity: 1;
+	
+/* 自动布局 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 248px;
+	
+}
+
+/* 历史记录 */
+.history image{
+  /* 矩形 164 */
+
+position: absolute;
+left: 4px;
+top: 23px;
+width: 16px;
+height: 3px;
+transform: rotate(-90deg);
+opacity: 1;
+	
+/* 绿色点缀 */
+background: #23FFAA;
+	
+}
+
+
+  /* 历史记录 */
+.history .historicRecords{
+
+
+/* 自动布局子元素 */
+position: absolute;
+left: 23px;
+top: 14px;
+width: 64px;
+height: 22px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 16px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #FFFFFF;
+	
+z-index: 1;
+}
+
+.history .clean{
+  /* 清除 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 89.33%;
+top: 14px;
+width: 24px;
+height: 17px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 绿色点缀 */
+color: #23FFAA;
+	
+z-index: 1;
+}
+.Historysearch{
+  position: relative;
+  background-color: #000;
+  height: 60px;
+  width: 100%;
+  color: #000;
+}
+
+.Historysearch .history1{
+  /* 全息投影素材制作教程 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 20px;
+
+width: auto;
+
+padding :3px 10px 0px 10px;
+height: 20px;
+opacity: 1;
+text-align: center;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+
+border-radius: 63px;
+border: 1px solid #48454C;
+
+}
+.Historysearch .history2{
+  /* 全息投影素材制作教程 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 120px;
+
+width: auto;
+
+padding :3px 10px 0px 10px;
+height: 20px;
+opacity: 1;
+text-align: center;
+line-height: normal;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+
+border-radius: 63px;
+border: 1px solid #48454C;
+
+}
+.Historysearch .history3{
+  /* 全息投影素材制作教程 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 20px;
+top: 35px;
+width: auto;
+
+padding :3px 10px 0px 10px;
+height: 20px;
+opacity: 1;
+text-align: center;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+
+border-radius: 63px;
+border: 1px solid #48454C;
+
+}
+.Historysearch .history4{
+  /* 全息投影素材制作教程 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 140px;
+top: 35px;
+width: auto;
+
+padding :3px 10px 0px 10px;
+height: 20px;
+opacity: 1;
+text-align: center;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+
+border-radius: 63px;
+border: 1px solid #48454C;
+
+}
+
+.Historysearch .history5{
+  /* 全息投影素材制作教程 */
+
+/* 自动布局子元素 */
+position: absolute;
+left: 270px;
+top: 35px;
+width: auto;
+
+padding :3px 10px 0px 10px;
+height: 20px;
+opacity: 1;
+text-align: center;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+
+border-radius: 63px;
+border: 1px solid #48454C;
+
+}
+
+
+
+.hot{
+  background-color: #000;
+  height:680px;
+}
+
+.hot image{
+  /* 矩形 164 */
+
+position: absolute;
+left: 4px;
+top: 175px;
+width: 16px;
+height: 3px;
+transform: rotate(-90deg);
+opacity: 1;
+	
+/* 绿色点缀 */
+background: #23FFAA;
+	
+}
+
+
+  /* 历史记录 */
+.hot .hotsearch{
+
+
+/* 自动布局子元素 */
+position: absolute;
+left: 23px;
+top: 166px;
+width: 64px;
+height: 22px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 16px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #FFFFFF;
+	
+z-index: 1;
+}
+
+.hot .hotword .word1{
+  /* 沉浸式鬼屋体验 */
+
+/* 自动布局子元素 */
+position: absolute;
+margin: 60px 20px;
+opacity: 1;
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+}
+.hot .hotword .word2{
+  /* 沉浸式鬼屋体验 */
+
+/* 自动布局子元素 */
+position: absolute;
+margin: 93px 20px;
+opacity: 1;
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+}
+.hot .hotword .word3{
+  /* 沉浸式鬼屋体验 */
+
+/* 自动布局子元素 */
+position: absolute;
+margin: 123px 20px;
+opacity: 1;
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+}
+.hot .hotword .word4{
+  /* 沉浸式鬼屋体验 */
+
+/* 自动布局子元素 */
+position: absolute;
+margin: 156px 20px;
+opacity: 1;
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+}
+
+.hot .hotword .word5{
+  /* 沉浸式鬼屋体验 */
+
+/* 自动布局子元素 */
+position: absolute;
+margin: 189px 20px;
+opacity: 1;
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #C2C2C2;
+	
+z-index: 0;
+}

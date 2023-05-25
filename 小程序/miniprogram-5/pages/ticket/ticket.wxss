@@ -1,0 +1,339 @@
+
+.TicketContainer{
+  position: relative;
+  height: 100%;
+}
+.TicketContainer .header{
+  position: relative;
+  /* 矩形 157 */
+  left: 0px;
+  top: 0px;
+  width: 100%; 
+  height: 94px;
+  opacity: 1;
+  background-color: #272727;
+	
+
+}
+.header image{
+/* 路径 */
+
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  width: 9.57px;
+  height: 16.52px;
+  opacity: 1;
+	
+}
+
+.header .Myticket{
+/* 我的券 */
+
+position: absolute;
+left: 43.2%;
+bottom: 12px;
+width: 54px;
+height: 25px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 18px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 白色字体 */
+color: #FFFFFF;
+	
+}
+
+.Container{
+  background-color: #000000;
+  height: 718px;
+  width: 100%;
+}
+
+.Container .payment{
+  /* 实付款： */
+
+position: absolute;
+left: 20px;
+top: 114px;
+width: 48px;
+height: 17px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 灰白色 */
+color: #C2C2C2;
+	
+}
+.Container .dollar{
+  /* ￥ */
+
+position: absolute;
+left: 65px;
+top: 114px;
+width: 3.2%;
+height: 2.09%;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 纯白 */
+color: #FFFFFF;
+	
+}
+
+.Container .money{
+  /* 11690 */
+
+position: absolute;
+left: 79px;
+top: 108px;
+width: 14.67%;
+height: 3.08%;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 18px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 纯白 */
+color: #FFFFFF;
+	
+}
+
+.Container .used{
+  /* 已使用 */
+
+position: absolute;
+right:14px;
+top: 108px;
+width: 54px;
+height: 25px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 18px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #FFFFFF;
+	
+}
+
+.Container .banner{
+  /* 矩形 217 */
+
+position: absolute;
+left: 10px;
+top: 143px;
+width: 94.58%;
+height: 318px;
+border-radius: 8px;
+opacity: 1;
+	
+background: #2C292F;
+	
+}
+
+.banner .title{
+  /* Cardi B 说唱音乐分享会 */
+
+position: absolute;
+left: 12px;
+top: 10px;
+width: 62.13%;
+height: 2.46%;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 纯白 */
+color: #FFFFFF;
+	
+}
+
+.banner .details{
+  /* Cardi B，1992年10月11日出生于美国纽约布朗... */
+
+position: absolute;
+left: 12px;
+top: 34px;
+width: 267px;
+height: 18px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 12px;
+font-weight: normal;
+line-height: 18px;
+letter-spacing: 0px;
+	
+/* 灰白色 */
+color: #C2C2C2;
+	
+}
+
+.banner .image1 image{
+/* 路径 */
+
+position: absolute;
+right:15.13px;
+top: 26.04px;
+width: 5.74px;
+height: 9.91px;
+opacity: 1;
+	
+	
+}
+
+.banner .voucher{
+  /* 券码 */
+
+position: absolute;
+left: 10px;
+top: 76px;
+width: 28px;
+height: 20px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 灰色字体 */
+color: #6D6A71;
+	
+}
+
+.banner .code{
+  /* 110 22656 00315 */
+
+position: absolute;
+left: 10px;
+top: 104px;
+width: 154px;
+height: 25px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 18px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+color: #FFFFFF;
+	
+}
+
+.banner .image2{
+  /* 查看图片_fbb26877 */
+
+/* 蒙版组 11 */
+
+position: absolute;
+left: 10px;
+bottom: 20px;
+width: 155px;
+height: 154px;
+opacity: 1;
+background-color: #FFFFFF;
+	
+}
+
+.banner .image2 image{
+
+/* 查看图片_fbb26877 */
+
+position: absolute;
+left: -25px;
+top:-21px;
+width: 200px;
+height: 200px;
+opacity: 1;
+	
+}
+
+.Container .footer{
+  /* 矩形 202 */
+
+position: absolute;
+bottom: 0px;
+width: 100%;
+height: 60px;
+opacity: 1;
+	
+background: #313131;
+	
+}
+
+.footer .judge{
+  /* 容器 23 */
+
+position: absolute;
+border-radius: 21px;
+/* 自动布局 */
+display: flex;
+flex-direction: column;
+padding: 4px 20px;
+gap: 10px;
+	
+/* 紫色渐变 */
+background: linear-gradient(130deg, #A678FF 8%, #915DFF 48%, #7C3FFD 97%);
+  
+/* 评价 */
+
+/* 自动布局子元素 */
+right: 20px;
+top: 15px;
+width: 32px;
+height: 22px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 16px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 白色字体 */
+color: #FFFFFF;
+	
+z-index: 0;
+
+
+}
+
+.judge .word{
+  /* 评价 */
+
+/* 自动布局子元素 */
+position: static;
+left: 20px;
+top: 4px;
+width: 32px;
+height: 22px;
+opacity: 1;
+	
+font-family: PingFang SC;
+font-size: 16px;
+font-weight: normal;
+letter-spacing: 0em;
+	
+/* 白色字体 */
+color: #FFFFFF;
+	
+z-index: 0;
+}
